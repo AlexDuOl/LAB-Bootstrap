@@ -38,13 +38,15 @@ h1 {;
   top: 13%;
 }
 /* Nav: barra de menu*/
-.menu {
+
+nav .menu {
   bottom: 10%;
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   font-size: 100%;
   float: right;
+  left: 60%;
   margin-left: 2em;
   margin-right: 2em;
   right: 3%;
@@ -81,19 +83,20 @@ h1 {;
 .greencontainer {
   box-sizing: border-box;
   background-color: #18BC9C;
+  border: 1%;
   height: 100%;
   left: 0;
-  position: fixed;
-  top: 0;
+  position: absolute;
+  top: 10%;
   width: 100%;
-  z-index: -1;
+
 }
 
 .imageprofile {
   box-sizing: content-box;
-  position: relative;
-  text-align: center;
-  top: 30%;
+  left: 37%;
+  position: absolute;
+  top: 10%;
 }
 /* Main: parrafo*/
 .paragraph{
@@ -110,15 +113,15 @@ p {
   left: 25%;
   position: absolute;
   text-align: center;
-  top: 60%;
+  top: 30%;
 }
 /* Main: starline*/
 .starline {
   background-image: url("../assets/images/star.png");
-  left: 40%;
+  left: 30%;
   position: absolute;
   text-align: center;
-  top: 85%;
+  top: 30%;
 }
 
 .left {
@@ -127,7 +130,7 @@ p {
   height: 4px;
   left: 40%;
   position: absolute;
-  top: 85%;
+  top: 57%;
   width: 6em;
 }
 
@@ -137,15 +140,15 @@ p {
   height: 4px;
   right: 40%;
   position: absolute;
-  top: 85%;
+  top: 57%;
   width: 6em;
 }
 
 .star {
   color: white;
-  left: 49%;
+  left: 47%;
   position: absolute;
-  top: 84%;
+  top: 56%;
   width: 3%;
 }
 
@@ -158,18 +161,20 @@ p {
   left: 26%;
   position: absolute;
   text-align: center;
-  top: 87%;
+  top: 60%;
 }
-/* **********************************Main: whitecontainer*/
+/*Main: whitecontainer*/
 .whitecontainer {
   box-sizing: border-box;
   background-color: #FFFFFF;
-  height:50em;
+  border: 1% solid gray;
+  height: 100%;
   left: 0;
   position: absolute;
-  top: 50em;
+  top: 100%;
   width: 100%;
 }
+
 /*Parrafo segunda paster*/
 .paragraph1 p {
   color: #2c3e50;
@@ -179,7 +184,7 @@ p {
   left: 29%;
   position: absolute;
   text-align: center;
-  top: 1%;
+  top: 0;
 }
 
 /* Main: starline*/
@@ -188,14 +193,14 @@ p {
   left: 40%;
   position: absolute;
   text-align: center;
-  top: 85%;
+  top: 40%;
   width: 6em;
 }
 
 .star1 {
-  left: 49%;
+  left: 47%;
   position: absolute;
-  top: 19%;
+  top: 24%;
   width: 3%;
 }
 
@@ -205,7 +210,7 @@ p {
   height: 4px;
   left: 40%;
   position: absolute;
-  top: 20%;
+  top: 25%;
   width: 6em;
 }
 
@@ -215,39 +220,24 @@ p {
   height: 4px;
   right: 40%;
   position: absolute;
-  top: 20%;
+  top: 25%;
   width: 6em;
 }
 
 /*Columnas para imagenes*/
-.images {
-  left: 10%;
-  right: 10%;
-  height: 100em;
-  width: 100em;
-  padding: 1%;
-  position: absolute;
+.col1 {
+  float: left;
+  position: relative;
+  top: 30%;
+  width: 30%;
 }
 
 /*Tamaño imagenes*/
-.imagespotfolio{
-height: 15%;
-width: 15%;
-}
-
-/* Main: ajuste columnas */
-.col1 {
-  margin: 1%;
-  width: 30%;
-  text-align: left;
-}
-.col2 {
-  margin: 1%;
-  width: 30%;
-  text-align: center;
-}
-.col3 {
-  margin: 1%;
-  width: 30%;
-  text-align: right;
+img {
+  float: left;
+  height:5%;
+  left: 36%;
+  padding: 1%;
+  position: relative;
+  width:70%;
 }
