@@ -97,17 +97,17 @@ nav .menu {
   top: 10%;
 }
 /* Main: parrafo*/
-.paragraph{
+.paragraph {
   display: block;
   box-sizing: content-box;
   text-align: center;
 }
 
-p {
+.paragraph p {
   color: white;
   font-family: 'Loto', sans-serif;
   font-size:  4.2em;
-  font-weight: 800;
+  font-weight: 600;
   left: 24%;
   position: absolute;
   text-align: center;
@@ -174,12 +174,12 @@ p {
 }
 
 /*Parrafo segunda paster*/
-.paragraph1 p {
+.paragraph1 p{
   color: #2c3e50;
   font-family: 'Loto', sans-serif;
   font-size:  4em;
   font-weight: 800;
-  left: 35%;
+  left: 25%;
   position: absolute;
   text-align: center;
   top: 0;
@@ -384,4 +384,92 @@ p {
   position: absolute;
   text-align: center;
   top: 0;
+}
+
+#name {
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  left: 20%;
+  position: absolute;
+  top: 35%;
+}
+
+#email-adress {
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  left: 20%;
+  position: absolute;
+  top: 45%;
+}
+
+#phone-number {
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  left: 20%;
+  position: absolute;
+  top: 55%;
+}
+
+#message {
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  left: 20%;
+  position: absolute;
+  top: 65%;
+}
+
+.line {
+  background-color: gray;
+  height: 1px;
+  left: 20%;
+  position: absolute;
+  top: 40%;
+  width: 70%;
+}
+
+.line1 {
+  background-color: gray;
+  height: 1px;
+  left: 20%;
+  position: absolute;
+  top: 50%;
+  width: 70%;
+}
+
+.line2 {
+  background-color: gray;
+  height: 1px;
+  left: 20%;
+  position: absolute;
+  top: 60%;
+  width: 70%;
+}
+
+.line3 {
+  background-color: gray;
+  height: 1px;
+  left: 20%;
+  position: absolute;
+  top: 85%;
+  width: 70%;
+}
+
+#send {
+  color: white;
+  font-size: 2em;
+  background-color: #18BC9C;
+  border: #18BC9C;
+  height: 40px;
+  left: 20%;
+  position: absolute;
+  top: 87%;
+  width: 10%;
 }
